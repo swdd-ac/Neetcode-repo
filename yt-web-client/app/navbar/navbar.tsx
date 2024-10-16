@@ -1,6 +1,6 @@
 'use client';
 
-import SignIn from "./signIn";
+import SignIn from "./sign-in";
 import Link from "next/link";
 
 import styles from "./navbar.module.css";

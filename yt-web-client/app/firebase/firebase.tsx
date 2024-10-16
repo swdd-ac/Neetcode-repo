@@ -5,12 +5,12 @@ import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, User 
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDZLxEY9FJ6Dx5dSNnsKRAwG6N8MX0IGD8",
-  authDomain: "neetcode-project-906c7.firebaseapp.com",
-  projectId: "neetcode-project-906c7",
-  messagingSenderId: "453171198814",
-  appId: "1:453171198814:web:9fb5326a8ec729d0926dcf"
-};
+    apiKey: "AIzaSyDwS-iwqu7ZcYzL3UzGVNf0huzJn3Z74rI",
+    authDomain: "yt-processing-service.firebaseapp.com",
+    projectId: "yt-processing-service",
+    messagingSenderId: "732159054797",
+    appId: "1:732159054797:web:e3db0279e8841a51e5aa84"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

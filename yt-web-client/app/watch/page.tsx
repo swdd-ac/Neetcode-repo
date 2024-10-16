@@ -1,8 +1,7 @@
 export default function Watch() {
-    return (
-      <div>
-        <p>Watch Page</p>
-      </div>
-    );
-  }
-  
+  return (
+    <div>
+      <p>Watch Page</p>
+    </div>
+  );
+}

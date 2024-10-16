@@ -1,5 +1,5 @@
 import { signInWithGoogle, signOut } from '../firebase/firebase';
-import styles from './signIn.module.css';
+import styles from './sigin-in.module.css';
 import { User } from 'firebase/auth';
 
 

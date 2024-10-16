@@ -3,6 +3,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./navbar/navbar";
 
+import { Inter } from 'next/font/google'
+const inter = Inter({ subsets: ['latin'] })
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -15,8 +18,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Youtube",
-  description: "Youtube Clone",
+  title: "David testing ",
+  description: "Video processing service",
 };
 
 export default function RootLayout({
@@ -26,10 +29,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <Navbar />
+      <body className={inter.className}>
+        <Navbar/>
         {children}
       </body>
     </html>
-  );
+  )
+  
 }
+  
